@@ -17,7 +17,7 @@ body {
   src: url("/assets/mensch-inline.ttf")};
 @font-face {
   font-family:sullivan;
-  src: url("/assets/Sullivan-Regular.otf")};
+  src: url("/assets/Bariol_Serif_Regular.otf")};
 
 * {
   margin: 0;
@@ -34,17 +34,17 @@ body {
   .main a:hover {
     text-decoration: none; }
   .main h1 {
-    font: 500 60px/0.5 'sullivan';
+    font: 500 60px/0.5 'Righteous';
     margin: 50px 0px;
     color: white; }
   .main h2 {
-    font: 400 60px/0.5 'mensch';
+    font: 400 60px/0.5 'draftDisplay';
     margin: 50px 50px;
     color: white; }
     .main h2:hover {
       color: #003366; }
   .main h3 {
-    font: 400 45px/0.5 'mensch';
+    font: 400 45px/0.5 'Righteous';
     margin: 20px -100px;
     color: white; }
 .avatar {
@@ -137,7 +137,7 @@ body {
   clear: right; }
 
 .logo {
-  font: 400 60px/0.5 'mensch';
+  font: 400 60px/0.5 'draftDisplay';
   margin: 35px 4% 35px;
   vertical-align: middle;
   color: white; }
