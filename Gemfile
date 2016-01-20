@@ -40,3 +40,5 @@ gem 'spring',        group: :development
 gem 'mail'
 gem 'figaro'
 gem 'pg'
+
+gem 'rails_12factor', group: :production
