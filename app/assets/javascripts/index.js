@@ -61,9 +61,6 @@ $(document).ready(function () {
     // WOW.JS
     new WOW().init();
 
-    // Hcaptions
-    $(window).load(function(){$(".hcaption").hcaptions({effect:"fade"})});
-
     // Nivo Lightbox
     $("a.nivo-light").nivoLightbox({effect:"fade",theme:"default",keyboardNav:!0})}),$(".carousel").carousel({interval:3e3}),jQuery(document).ready(function(){var e=220,o=500;jQuery(window).scroll(function(){jQuery(this).scrollTop()>e?jQuery(".back-to-top").fadeIn(o):jQuery(".back-to-top").fadeOut(o)}),jQuery(".back-to-top").click(function(e){return e.preventDefault(),jQuery("html, body").animate({scrollTop:0},o),!1});
 
